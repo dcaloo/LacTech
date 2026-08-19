@@ -5,3 +5,18 @@ h3 {
 .text {
     font-family: 'Times New Roman', Times, serif;
 }
+
+.footer {
+    background-color:#0147A9;
+    color: white;
+}
+
+.copyright {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+}
+
+.col {
+    width: 10px;
+}
