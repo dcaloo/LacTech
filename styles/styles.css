@@ -226,6 +226,10 @@ body {
     font-size: 1rem;
 }
 
+.busca-container input::placeholder {
+    text-align: center;
+}
+
 .btn-concluir {
     background-color: var(--lactare-azul-secondary);
     color: white;
@@ -347,6 +351,15 @@ body {
     font-weight: bold;
 }
 
+.container-doar {
+    text-align: center;   
+}
+
+.container-doar h1 {
+    color: var(--lactare-azul) !important;
+    margin-top: 1rem;
+}
+
 @media (max-width: 768px) {
     .navbar,
     .navbar.bg-body-tertiary,
@@ -418,11 +431,14 @@ body {
 
     .busca-container {
         width: 100%;
-        max-width: 260px;
     }
 
     .busca-container input {
         width: 100%;
+    }
+
+    .busca-container input::placeholder {
+        text-align: center;
     }
 
     .mapa-resultado-wrapper {
